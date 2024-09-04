@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: my-gatsby-site
+    env: node
+    plan: free  # You can change this to your desired plan
+    buildCommand: npm run build
+    startCommand: npm run start
+    build:
+      publishPath: public
+    envVars:
+      - key: NODE_VERSION
+        value: 14.15.0
+      - key: YARN_VERSION
+        value: 1.22.4
+      - key: YARN_FLAGS
+        value: --no-ignore-optional
+    autoDeploy: true
