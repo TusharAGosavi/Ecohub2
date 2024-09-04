@@ -7,7 +7,7 @@ backend:
     delete: "Delete {{collection}} “{{slug}}”"
     uploadMedia: "[skip ci] Upload “{{path}}”"
     deleteMedia: "[skip ci] Delete “{{path}}”"
-  identity_url: https://ecohub2.onrender.com/.netlify/identity  # Replace with your Identity URL
+  # identity_url: https://ecohub2.onrender.com/.netlify/identity  # Replace with your Identity URL
   gateway_url: https://ecohub2.onrender.com/.netlify/gitgateway  # Your Git Gateway endpoint
   auth_type: implicit
   app_id: Ov23liqKsRqEzhs4DO45
