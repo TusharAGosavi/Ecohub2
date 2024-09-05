@@ -1,9 +1,12 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main
-  # repo: TusharAGosavi/TagEcohub
-  # base_url: https://api.netlify.com
-  # auth_endpoint: /auth
+  repo: TusharAGosavi/TagEcohub
+  auth_scope: repo
+  base_url: https://api.render.com # This is where OAuth requests will be sent
+  auth_endpoint: /auth
+  cms_label_prefix: "Decap"
+
 
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
