@@ -3,8 +3,8 @@ backend:
   branch: main
   repo: TusharAGosavi/TagEcohub
   auth_scope: repo
-  base_url: https://api.render.com # This is where OAuth requests will be sent
-  auth_endpoint: /auth
+  base_url: https://ecohub2.onrender.com # This is where OAuth requests will be sent
+  auth_endpoint: /admin
   cms_label_prefix: "Decap"
 
 
